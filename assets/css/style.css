@@ -56,9 +56,26 @@ body {
     line-height: 30px;
   }
   
-  #gem4:hover, 
-  #gem3:hover, 
-  #gem2:hover, 
-  #gem1:hover {
-    margin:-10px;
-  }
+
+  .crystal {
+    width: 20%;
+    float: left;
+    text-align: center;
+    height: 100px;
+    border: 1px black solid;
+}
+.crystal img  {
+    width: 100%;
+    max-width: 100px;;
+}
+.crystals {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.spacer {
+    height: 25px;
+    line-height: 25px;
+    width: 100%;
+}
