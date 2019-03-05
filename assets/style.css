@@ -1,0 +1,64 @@
+body {
+    background-image: linear-gradient(180deg,#68a6af 0,#68a6af 20%,#7BCB57 100%,#7BCB57 100%);
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 50px;
+  }
+  
+  .title {
+    font-family: 'Orbitron', sans-serif;
+    font-size:22px;
+    line-height:30px;
+    color:#555555;
+    padding: 10px 0;
+  }
+  
+  .copy {
+    font-family: 'Orbitron', sans-serif;
+    font-size:15px;
+    line-height:20px;
+    color:#555555;
+  }
+  
+  .jumbotron {
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  #instructions {
+    background: #e7e7e7;
+    padding: 25px;
+    border-radius: 50px;
+    margin: 20px 0;
+  }
+  
+  #game {
+    background: #c7c7c7 ;
+    padding: 25px;
+    border-radius: 50px;
+    margin: 20px 0;
+  }
+  
+  .scoreboard {
+    font-family: 'Orbitron', sans-serif;
+    width:200px;
+    background:black;
+    color:white;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+  
+  #numberWins, #numberLosses, #finalTotal, #randomNumber {
+    font-size: 30px;
+    line-height: 30px;
+  }
+  
+  #gem4:hover, 
+  #gem3:hover, 
+  #gem2:hover, 
+  #gem1:hover {
+    margin:-10px;
+  }

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="//code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="assets/style.css">
+	<head>
+        <title>Crystal Collector!</title>
+        <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+        <style>
+        
+        </style>
+	</head>
+	<body>
+		<div class="container">
+      
+      <!--  Jumbo  -->
+			<div class= "jumbotron">
+				<h1>Welcome to<br>
+          The Crystal Game</h1>
+			</div>
+      
+			<!-- instructions  -->
+			<div class="container" id="instructions">
+				<div class= "row">
+          <div class="col-md-12">
+					  <div class="title">Instructions</div>
+          </div>
+        </div>
+        <div class= "row">
+          <div class="col-md-12">
+					  <div class="copy">Click on a gem to accumulate point. Try to accumulate a score that matches the Goal to win.</div>
+          </div>
+        </div>
+      </div>
+      <!-- Game  -->
+      <div class="container" id="game">
+				<div class="row" align="center">
+          <div id="spacer" class="col-md-2">
+          </div>
+          
+          <div class="col-md-2" >
+            <img  id="gem1" width="100" src="http://aux3.iconspalace.com/uploads/5123983611224387580.png" style="width:100%;max-width:100px;">
+          </div>
+           <div class="col-md-2" >
+             <img  id="gem2" width="100" src="http://aux2.iconspalace.com/uploads/445375593155810509.png" style="width:100%;max-width:100px;">
+          </div>
+           <div class="col-md-2" >
+             <img  id="gem3" width="100" src="http://aux4.iconspalace.com/uploads/7747021201220108100.png" style="width:100%;max-width:100px;">
+          </div>
+           <div class="col-md-2" >
+             <img id="gem4" width="100" src="http://aux4.iconspalace.com/uploads/82464341916063359.png" style="width:100%;max-width:100px;">
+          </div>
+          
+          <div id="spacer" class="col-md-2">
+          </div>
+            
+        </div>
+        <br><br>
+        <div class="row">
+           <div class="col-md-6" align="center">
+             <div  class="scoreboard">
+              Score:<br>
+               <span id="finalTotal">0</span>
+             </div>
+              
+          </div>
+          <div class="col-md-6" align="center">
+            <div class="scoreboard">
+              Goal:<br>
+               <span id="randomNumber">66</span>
+             </div>
+          </div>
+        </div>
+        <br><br>
+        <div class="row">
+           <div class="col-md-6" align="center">
+             <div class="scoreboard">
+              Wins:<br>
+               <span id="numberWins">0</span>
+             </div>
+              
+          </div>
+          <div class="col-md-6" align="center">
+            <div class="scoreboard">
+              Losses:<br>
+               <span id="numberLosses">0</span>
+             </div>
+          </div>
+        </div>
+      </div>
+ 
+		</div>
+		
+		 <!-- jQuery CDN -->
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+       
+         <!-- Bootstrap JavaScript CDN -->
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+           <!-- My JS -->
+		<script src="assets/game.js"></script>
+	</body>
+</html>
