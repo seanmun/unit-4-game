@@ -58,15 +58,12 @@ body {
   
 
   .crystal {
-    width: 20%;
+    width: 200px;
     float: left;
     text-align: center;
-    height: 100px;
+    height: 200px;
 }
-img{
-    width: 100%;
-    max-width: 100px;;
-}
+
 .crystals {
     width: 100%;
     display: flex;

@@ -36,9 +36,9 @@ var startGame = function() {
           });
           crystal.css({
             "background-image":"url('" + images[i] + "')",
-            "background-size": "cover"
+            "background-size": "contain",
+            "background-repeat": "no-repeat"
           })
-          crystal.html(random);
 
       $(".crystals").append(crystal);
   }
